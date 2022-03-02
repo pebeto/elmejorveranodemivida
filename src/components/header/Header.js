@@ -22,7 +22,7 @@ const Header = () => {
         El mejor verano de mi vida
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
+      <Navbar.Collapse className="navbar_header" id="responsive-navbar-nav">
         <Nav>
           <Nav.Link className="link" as={Link} to="/dates">
             {t("navbar.dates")}
@@ -34,7 +34,7 @@ const Header = () => {
             {t("navbar.press_kit")}
           </Nav.Link>
         </Nav>
-        <Container />
+        {/* <Container /> */}
         <Nav>
           <Nav.Link className="link" onClick={() => changeLanguage("es")}>
             {t("spanish")}

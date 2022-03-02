@@ -1,3 +1,7 @@
+.navbar_header {
+  justify-content: space-between;
+}
+
 .brand_name {
   font-family: "LeOsler";
   font-size: large;
