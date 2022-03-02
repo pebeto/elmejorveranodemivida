@@ -1,0 +1,18 @@
+.header-row {
+  background-color: white;
+}
+
+.body-row {
+  background-color: white;
+}
+
+.footer-row {
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+@font-face {
+  font-family: "LeOsler";
+  src: url(./assets/fonts/LeOsler_Rough-Light.ttf) format("truetype");
+}
