@@ -18,7 +18,7 @@ class Main extends React.Component {
               width="100%"
               height="80"
               frameBorder="0"
-              allowfullscreen=""
+              allowFullScreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             ></iframe>
             <iframe
@@ -31,15 +31,17 @@ class Main extends React.Component {
                 Richard Stallman estás cancelado by El mejor verano de mi vida
               </a>
             </iframe>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/c57dMWJoQkY?controls=0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <div className="video-container">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/c57dMWJoQkY?controls=0"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
           </Col>
           <Col>
             <Figure>
