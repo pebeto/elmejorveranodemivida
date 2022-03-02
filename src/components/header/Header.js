@@ -34,7 +34,6 @@ const Header = () => {
             {t("navbar.press_kit")}
           </Nav.Link>
         </Nav>
-        {/* <Container /> */}
         <Nav>
           <Nav.Link className="link" onClick={() => changeLanguage("es")}>
             {t("spanish")}
