@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/EMVDMV__ISOTIPO.png";
+import logo from "../assets/images/EMVDMV__ISOTIPO.webp";
 import { Col, Figure, Row } from "react-bootstrap";
 import { withTranslation } from "react-i18next";
 import "./main.css";

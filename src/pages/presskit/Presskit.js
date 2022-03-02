@@ -10,7 +10,7 @@ import {
   faInstagram,
   faSpotify,
 } from "@fortawesome/free-brands-svg-icons";
-import logo from "../../assets/images/EMVDMV__ISOTIPO.png";
+import logo from "../../assets/images/EMVDMV__ISOTIPO.webp";
 import DatesCards from "../../components/datesCards/DatesCards";
 
 class Presskit extends React.Component {
@@ -29,7 +29,7 @@ class Presskit extends React.Component {
             <Figure>
               <Figure.Image
                 fluid
-                src={getImageURL("/images/photos/1636339063928.jpg")}
+                src={getImageURL("/images/photos/1636339063928.webp")}
               ></Figure.Image>
             </Figure>
           </Col>
@@ -69,7 +69,7 @@ class Presskit extends React.Component {
             <Figure>
               <Figure.Image
                 fluid
-                src={getImageURL("/images/photos/DSC03900.jpg")}
+                src={getImageURL("/images/photos/DSC03900.webp")}
               ></Figure.Image>
             </Figure>
             <Row>

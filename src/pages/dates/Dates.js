@@ -14,7 +14,7 @@ class Dates extends React.Component {
         <Figure>
           <Figure.Image
             fluid
-            src={getImageURL("/images/photos/DSC03737.JPG")}
+            src={getImageURL("/images/photos/DSC03737.webp")}
           ></Figure.Image>
         </Figure>
         <h1 className="dates_title">{this.props.t("dates.upcoming_dates")}</h1>
