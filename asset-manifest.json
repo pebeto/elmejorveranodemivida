@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/elmejorveranodemivida/static/css/main.0b79ceb2.css",
-    "main.js": "/elmejorveranodemivida/static/js/main.fbe24611.js",
+    "main.css": "/elmejorveranodemivida/static/css/main.8cfd59e4.css",
+    "main.js": "/elmejorveranodemivida/static/js/main.8a4c2174.js",
+    "static/media/LeOsler_Rough-Light.ttf": "/elmejorveranodemivida/static/media/LeOsler_Rough-Light.5a3d2b3e3f386e686b16.ttf",
     "static/media/EMVDMV__ISOTIPO.png": "/elmejorveranodemivida/static/media/EMVDMV__ISOTIPO.6402944535b0d8d6f16a.png",
     "index.html": "/elmejorveranodemivida/index.html",
-    "main.0b79ceb2.css.map": "/elmejorveranodemivida/static/css/main.0b79ceb2.css.map",
-    "main.fbe24611.js.map": "/elmejorveranodemivida/static/js/main.fbe24611.js.map"
+    "main.8cfd59e4.css.map": "/elmejorveranodemivida/static/css/main.8cfd59e4.css.map",
+    "main.8a4c2174.js.map": "/elmejorveranodemivida/static/js/main.8a4c2174.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b79ceb2.css",
-    "static/js/main.fbe24611.js"
+    "static/css/main.8cfd59e4.css",
+    "static/js/main.8a4c2174.js"
   ]
 }
