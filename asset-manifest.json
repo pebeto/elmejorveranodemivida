@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/elmejorveranodemivida/static/css/main.a8848df1.css",
-    "main.js": "/elmejorveranodemivida/static/js/main.c40680e2.js",
+    "main.js": "/elmejorveranodemivida/static/js/main.4a126966.js",
     "static/media/LeOsler_Rough-Light.ttf": "/elmejorveranodemivida/static/media/LeOsler_Rough-Light.5a3d2b3e3f386e686b16.ttf",
     "static/media/EMVDMV__ISOTIPO.png": "/elmejorveranodemivida/static/media/EMVDMV__ISOTIPO.6402944535b0d8d6f16a.png",
     "index.html": "/elmejorveranodemivida/index.html",
     "main.a8848df1.css.map": "/elmejorveranodemivida/static/css/main.a8848df1.css.map",
-    "main.c40680e2.js.map": "/elmejorveranodemivida/static/js/main.c40680e2.js.map"
+    "main.4a126966.js.map": "/elmejorveranodemivida/static/js/main.4a126966.js.map"
   },
   "entrypoints": [
     "static/css/main.a8848df1.css",
-    "static/js/main.c40680e2.js"
+    "static/js/main.4a126966.js"
   ]
 }
