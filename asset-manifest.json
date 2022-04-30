@@ -1,15 +1,17 @@
 {
-  "files": {
-    "main.css": "/elmejorveranodemivida/static/css/main.d83f3c9b.css",
-    "main.js": "/elmejorveranodemivida/static/js/main.f14ed921.js",
-    "static/media/LeOsler_Rough-Light.ttf": "/elmejorveranodemivida/static/media/LeOsler_Rough-Light.5a3d2b3e3f386e686b16.ttf",
-    "static/media/EMVDMV__ISOTIPO.webp": "/elmejorveranodemivida/static/media/EMVDMV__ISOTIPO.fd7b22dae59d454f5d5e.webp",
-    "index.html": "/elmejorveranodemivida/index.html",
-    "main.d83f3c9b.css.map": "/elmejorveranodemivida/static/css/main.d83f3c9b.css.map",
-    "main.f14ed921.js.map": "/elmejorveranodemivida/static/js/main.f14ed921.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.d83f3c9b.css",
-    "static/js/main.f14ed921.js"
-  ]
+  "main.css": "/elmejorveranodemivida/static/css/main.9bd7e6c1.chunk.css",
+  "main.js": "/elmejorveranodemivida/static/js/main.797fa516.chunk.js",
+  "main.js.map": "/elmejorveranodemivida/static/js/main.797fa516.chunk.js.map",
+  "static/css/1.977466e3.chunk.css": "/elmejorveranodemivida/static/css/1.977466e3.chunk.css",
+  "static/js/1.a5df2eb8.chunk.js": "/elmejorveranodemivida/static/js/1.a5df2eb8.chunk.js",
+  "static/js/1.a5df2eb8.chunk.js.map": "/elmejorveranodemivida/static/js/1.a5df2eb8.chunk.js.map",
+  "runtime~main.js": "/elmejorveranodemivida/static/js/runtime~main.eb5b71e6.js",
+  "runtime~main.js.map": "/elmejorveranodemivida/static/js/runtime~main.eb5b71e6.js.map",
+  "static/media/EMVDMV__ISOTIPO.webp": "/elmejorveranodemivida/static/media/EMVDMV__ISOTIPO.edb47516.webp",
+  "static/media/app.css": "/elmejorveranodemivida/static/media/LeOsler_Rough-Light.8802a3bc.ttf",
+  "static/css/main.9bd7e6c1.chunk.css.map": "/elmejorveranodemivida/static/css/main.9bd7e6c1.chunk.css.map",
+  "static/css/1.977466e3.chunk.css.map": "/elmejorveranodemivida/static/css/1.977466e3.chunk.css.map",
+  "index.html": "/elmejorveranodemivida/index.html",
+  "precache-manifest.6db94eff8c2b665afd34244056cf357e.js": "/elmejorveranodemivida/precache-manifest.6db94eff8c2b665afd34244056cf357e.js",
+  "service-worker.js": "/elmejorveranodemivida/service-worker.js"
 }
