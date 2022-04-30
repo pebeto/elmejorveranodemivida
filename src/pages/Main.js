@@ -24,11 +24,11 @@ class Main extends React.Component {
             <iframe
               title="bandcamp"
               style={{ border: 0, width: "100%", height: "120px" }}
-              src="https://bandcamp.com/EmbeddedPlayer/track=441872570/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
+              src="https://bandcamp.com/EmbeddedPlayer/album=1828008601/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
               seamless
             >
-              <a href="https://elmejorveranodemivida.bandcamp.com/track/richard-stallman-est-s-cancelado">
-                Richard Stallman estás cancelado by El mejor verano de mi vida
+              <a href="https://elmejorveranodemivida.bandcamp.com/album/el-mejor-verano-de-mi-vida">
+                El mejor verano de mi vida by El mejor verano de mi vida
               </a>
             </iframe>
             <div className="video-container">

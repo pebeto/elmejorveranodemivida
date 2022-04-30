@@ -1,11 +1,6 @@
-import {
-  faBandcamp,
-  faInstagram,
-  faSpotify,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Nav } from "react-bootstrap";
-import "./footer.css";
+import React from 'react'
+import { Nav } from 'react-bootstrap';
+import './footer.css';
 
 const Footer = () => {
   return (

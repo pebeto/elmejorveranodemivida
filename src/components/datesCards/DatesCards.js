@@ -10,22 +10,20 @@ import { getImageURL } from "../../utils";
 import "./dates_cards.css";
 
 class DatesCards extends React.Component {
-  state = {};
-
   constructor(props) {
     super(props);
     switch (props.time) {
       case "upcoming":
-        this.state.dates = getUpcomingDates();
+        this.state = { dates: getUpcomingDates() };
         break;
       case "past":
-        this.state.dates = getPastDates();
+        this.state = { dates: getPastDates() };
         break;
       case "all":
-        this.state.dates = getAllDates();
+        this.state = { dates: getAllDates() };
         break;
       default:
-        this.state.dates = getAllDates();
+        this.state = { dates: getUpcomingDates() };
         break;
     }
   }
@@ -40,7 +38,11 @@ class DatesCards extends React.Component {
       cards.push(
         <Col>
           <Card className="dates_card">
-            <Card.Img variant="top" src={getImageURL(d.source)} />
+            <Card.Img
+              className="dates_image"
+              variant="top"
+              src={getImageURL(d.source)}
+            />
             <Card.Body>
               <Card.Title>{d.name}</Card.Title>
               <Card.Text>

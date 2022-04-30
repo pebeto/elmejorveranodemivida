@@ -7,15 +7,18 @@ const sortDates = () => {
 };
 
 export const getAllDates = () => {
-  return sortDates();
+  let dates = sortDates();
+  return dates;
 };
 
 export const getUpcomingDates = () => {
   let dates = sortDates();
-  return dates.filter((d) => Date.parse(d.date) > new Date());
+  let upcomingDates = dates.filter((d) => Date.parse(d.date) > new Date());
+  return upcomingDates;
 };
 
 export const getPastDates = () => {
   let dates = sortDates();
-  return dates.filter((d) => Date.parse(d.date) < new Date());
+  let pastDates = dates.filter((d) => Date.parse(d.date) < new Date());
+  return pastDates;
 };

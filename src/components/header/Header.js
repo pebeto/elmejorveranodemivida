@@ -1,14 +1,16 @@
-import { Container, Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import { useTranslation } from "react-i18next";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react'
+import { Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBandcamp,
   faInstagram,
   faSpotify,
-} from "@fortawesome/free-brands-svg-icons";
-import "./header.css";
-import i18n from "../../assets/translations/handler";
+  faYoutube,
+} from '@fortawesome/free-brands-svg-icons';
+import './header.css';
+import i18n from '../../assets/translations/handler';
 
 const changeLanguage = (language) => {
   i18n.changeLanguage(language);
@@ -25,21 +27,24 @@ const Header = () => {
       <Navbar.Collapse className="navbar_header" id="responsive-navbar-nav">
         <Nav>
           <Nav.Link className="link" as={Link} to="/dates">
-            {t("navbar.dates")}
+            {t('navbar.dates')}
           </Nav.Link>
           <Nav.Link className="link" as={Link} to="/merch">
-            {t("navbar.merch")}
+            {t('navbar.merch')}
           </Nav.Link>
           <Nav.Link className="link" as={Link} to="/presskit">
-            {t("navbar.press_kit")}
+            {t('navbar.press_kit')}
+          </Nav.Link>
+          <Nav.Link className="link" as={Link} to="/contact">
+            {t('navbar.contact')}
           </Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link className="link" onClick={() => changeLanguage("es")}>
-            {t("spanish")}
+          <Nav.Link className="link" onClick={() => changeLanguage('es')}>
+            {t('spanish')}
           </Nav.Link>
-          <Nav.Link className="link" onClick={() => changeLanguage("en")}>
-            {t("english")}
+          <Nav.Link className="link" onClick={() => changeLanguage('en')}>
+            {t('english')}
           </Nav.Link>
           <Nav.Link
             target="_blank"
@@ -61,6 +66,13 @@ const Header = () => {
             target="_blank"
           >
             <FontAwesomeIcon icon={faSpotify} size="lg" />
+          </Nav.Link>
+          <Nav.Link
+            href="https://www.youtube.com/channel/UCSyQLlL_7JyVbA_1mPyW5Sg"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faYoutube} size="lg" />
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
