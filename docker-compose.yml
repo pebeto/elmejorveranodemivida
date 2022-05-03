@@ -1,11 +1,12 @@
 services:
   web:
-    restart: always
-    build:
+    build: 
       context: .
-      dockerfile: Dockerfile.dev
-    ports:
-      - '3000:3000'
+      dockerfile: Dockerfile
+    restart: always
+    command: npm run start
     volumes:
       - .:/app
       - /app/node_modules
+    ports:
+      - '3000:3000'
