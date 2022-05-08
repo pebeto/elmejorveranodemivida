@@ -1,25 +1,25 @@
-import React from "react";
-import { Card, Col, Row } from "react-bootstrap";
-import { withTranslation } from "react-i18next";
+import React from 'react';
+import { Card, Col, Row } from 'react-bootstrap';
+import { withTranslation } from 'react-i18next';
 import {
   getAllDates,
   getPastDates,
   getUpcomingDates,
-} from "../../services/datesService";
-import { getImageURL } from "../../utils";
-import "./dates_cards.css";
+} from '../../services/datesService';
+import { getImageURL } from '../../utils';
+import './dates_cards.css';
 
 class DatesCards extends React.Component {
   constructor(props) {
     super(props);
     switch (props.time) {
-      case "upcoming":
+      case 'upcoming':
         this.state = { dates: getUpcomingDates() };
         break;
-      case "past":
+      case 'past':
         this.state = { dates: getPastDates() };
         break;
-      case "all":
+      case 'all':
         this.state = { dates: getAllDates() };
         break;
       default:
@@ -54,15 +54,15 @@ class DatesCards extends React.Component {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                {this.props.t("dates.more_info")}
+                {this.props.t('dates.more_info')}
               </Card.Link>
             </Card.Body>
           </Card>
         </Col>
       );
     }
-    if (this.props.time === "upcoming" && cards.length === 0)
-      return this.props.t("dates.no_upcoming_dates");
+    if (this.props.time === 'upcoming' && cards.length === 0)
+      return this.props.t('dates.no_upcoming_dates');
     return <Row>{cards}</Row>;
   }
 }

@@ -1,8 +1,8 @@
-import React from "react";
-import logo from "../assets/images/EMVDMV__ISOTIPO.webp";
-import { Col, Figure, Row } from "react-bootstrap";
-import { withTranslation } from "react-i18next";
-import "./main.css";
+import React from 'react';
+import logo from '../assets/images/EMVDMV__ISOTIPO.webp';
+import { Col, Figure, Row } from 'react-bootstrap';
+import { withTranslation } from 'react-i18next';
+import './main.css';
 
 class Main extends React.Component {
   state = {};
@@ -23,7 +23,7 @@ class Main extends React.Component {
             ></iframe>
             <iframe
               title="bandcamp"
-              style={{ border: 0, width: "100%", height: "120px" }}
+              style={{ border: 0, width: '100%', height: '120px' }}
               src="https://bandcamp.com/EmbeddedPlayer/album=1828008601/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
               seamless
             >
@@ -35,11 +35,11 @@ class Main extends React.Component {
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/c57dMWJoQkY?controls=0"
+                src="https://www.youtube.com/embed/N50iT1cFQVw?controls=0"
                 title="YouTube video player"
-                frameBorder="0"
+                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
+                allowfullscreen
               ></iframe>
             </div>
           </Col>

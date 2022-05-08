@@ -1,4 +1,4 @@
-import dates from "../assets/data/dates.json";
+import dates from '../assets/data/dates.json';
 
 const sortDates = () => {
   return dates.sort((a, b) => {
