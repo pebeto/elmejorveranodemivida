@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d61cc4da94f82d48f398",
+    "revision": "8926a3a97d465ede2a9e",
     "url": "/elmejorveranodemivida/static/css/main.ebdcd08f.chunk.css"
   },
   {
-    "revision": "d61cc4da94f82d48f398",
-    "url": "/elmejorveranodemivida/static/js/main.d61cc4da.chunk.js"
+    "revision": "8926a3a97d465ede2a9e",
+    "url": "/elmejorveranodemivida/static/js/main.8926a3a9.chunk.js"
   },
   {
     "revision": "a5df2eb8527f3be4374b",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/elmejorveranodemivida/static/media/LeOsler_Rough-Light.8802a3bc.ttf"
   },
   {
-    "revision": "23efebb585baec63769c4aba4289289f",
+    "revision": "aa726b485b1afa34178e5ce1930c4e09",
     "url": "/elmejorveranodemivida/index.html"
   }
 ];
