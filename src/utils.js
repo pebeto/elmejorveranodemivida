@@ -5,3 +5,7 @@ export const getImageURL = (imageSource) => {
 export const isEmptyArray = (array) => {
   return Array.isArray(array) && array.length;
 };
+
+export const getUniqueId = (name) => {
+  return `${name}-${Math.random()}`;
+};

@@ -6,7 +6,7 @@ import {
   getPastDates,
   getUpcomingDates,
 } from '../../services/datesService';
-import { getImageURL } from '../../utils';
+import { getImageURL, getUniqueId } from '../../utils';
 import './dates_cards.css';
 
 class DatesCards extends React.Component {
@@ -36,7 +36,7 @@ class DatesCards extends React.Component {
 
     for (let d of dates) {
       cards.push(
-        <Col>
+        <Col key={getUniqueId('card')}>
           <Card className="dates_card">
             <Card.Img
               className="dates_image"
