@@ -13,10 +13,10 @@ class Main extends React.Component {
         <Row>
           <Col>
             <iframe
-              title="spotify"
-              src="https://open.spotify.com/embed/track/0GMJC2dk7YzppZ0JJWPpPC?utm_source=generator"
+              style={{ borderRadius: '12px' }}
+              src="https://open.spotify.com/embed/album/5atwna2DVeRTYaSpfY3gi2?utm_source=generator"
               width="100%"
-              height="80"
+              height="250"
               frameBorder="0"
               allowFullScreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"

@@ -28,61 +28,6 @@ class Contact extends React.Component {
           </Figure>
         </Col>
         <Col>
-          <Form
-            action="https://send.pageclip.co/DC6zvjqGA84zn3uLzjnMgD1ohL7Qjy9e"
-            className="pageclip-form"
-            method="post"
-          >
-            <Form.Group>
-              <Form.Label>{this.props.t('contact.form.youremail')}</Form.Label>
-              <Form.Control
-                type="email"
-                name="email"
-                placeholder={this.props.t('contact.form.youremail.required')}
-                required
-              />
-              <Form.Control.Feedback type="invalid">
-                {this.props.t('contact.form.youremail.invalid')}
-              </Form.Control.Feedback>
-              <Form.Text className="text-muted">
-                {this.props.t('contact.form.youremail.extra')}
-              </Form.Text>
-            </Form.Group>
-            <Form.Group>
-              <Form.Label>{this.props.t('contact.form.name')}</Form.Label>
-              <Form.Control
-                type="name"
-                name="name"
-                placeholder={this.props.t('contact.form.name.empty')}
-                required
-              />
-            </Form.Group>
-            <Form.Group>
-              <Form.Label>{this.props.t('contact.form.subject')}</Form.Label>
-              <Form.Select name="subject" defaultValue={this.props.t('contact.form.subject.other')}>
-                <option>{this.props.t('contact.form.subject.press')}</option>
-                <option>{this.props.t('contact.form.subject.booking')}</option>
-                <option>{this.props.t('contact.form.subject.colaboration')}</option>
-                <option>{this.props.t('contact.form.subject.other')}</option>
-              </Form.Select>
-            </Form.Group>
-            <Form.Group>
-              <Form.Label>{this.props.t('contact.form.message')}</Form.Label>
-              <Form.Control
-                as="textarea"
-                name="message"
-                placeholder={this.props.t('contact.form.message.placeholder')}
-                required
-              />
-            </Form.Group>
-            <Button
-              variant="link"
-              type="submit"
-              className="pageclip-form__submit"
-            >
-              {this.props.t('contact.form.send')}
-            </Button>
-          </Form>
           <div>
             <div className="contact_text">
               {this.props.t('contact.email.info1')}

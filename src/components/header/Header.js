@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -8,6 +8,7 @@ import {
   faInstagram,
   faSpotify,
   faYoutube,
+  faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import './header.css';
 import i18n from '../../assets/translations/handler';
@@ -49,9 +50,16 @@ const Header = () => {
           <Nav.Link
             target="_blank"
             rel="noreferrer noopener"
-            href="https://www.instagram.com/xelmejorveranodemividax/"
+            href="https://www.instagram.com/emvdmvband/"
           >
             <FontAwesomeIcon icon={faInstagram} size="lg" />
+          </Nav.Link>
+          <Nav.Link
+            href="https://twitter.com/emvdmv"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faTwitter} size="lg" />
           </Nav.Link>
           <Nav.Link
             target="_blank"
