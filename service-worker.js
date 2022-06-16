@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/elmejorveranodemivida/precache-manifest.1818df2ef7a89cfe92fa5a35bb47c34a.js"
+  "/elmejorveranodemivida/precache-manifest.53214e8fdb0e757c25512dd26fb75bb8.js"
 );
 
 workbox.clientsClaim();
