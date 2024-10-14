@@ -1,6 +1,3 @@
 build
 node_modules
-src/assets/data/*
-src/assets/fonts/*
-src/assets/translations/en.json
-src/assets/translations/es.json
+src/assets/*
