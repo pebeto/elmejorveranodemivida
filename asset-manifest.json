@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/elmejorveranodemivida/static/css/main.580235e9.css",
-    "main.js": "/elmejorveranodemivida/static/js/main.68604bb4.js",
+    "main.css": "/elmejorveranodemivida/static/css/main.64e896c4.css",
+    "main.js": "/elmejorveranodemivida/static/js/main.15106f93.js",
     "static/media/st.webp": "/elmejorveranodemivida/static/media/st.e711cc49eb23f5628f77.webp",
     "static/media/martin.webp": "/elmejorveranodemivida/static/media/martin.9c5cb0dd8979a1303ece.webp",
     "static/media/first_presentation.webp": "/elmejorveranodemivida/static/media/first_presentation.da3b5ce221704c0f6cc7.webp",
@@ -11,11 +11,11 @@
     "static/media/lotr.webp": "/elmejorveranodemivida/static/media/lotr.932d0b9f821487ba7d21.webp",
     "static/media/normal.webp": "/elmejorveranodemivida/static/media/normal.dba3544cb560d4e6d14e.webp",
     "index.html": "/elmejorveranodemivida/index.html",
-    "main.580235e9.css.map": "/elmejorveranodemivida/static/css/main.580235e9.css.map",
-    "main.68604bb4.js.map": "/elmejorveranodemivida/static/js/main.68604bb4.js.map"
+    "main.64e896c4.css.map": "/elmejorveranodemivida/static/css/main.64e896c4.css.map",
+    "main.15106f93.js.map": "/elmejorveranodemivida/static/js/main.15106f93.js.map"
   },
   "entrypoints": [
-    "static/css/main.580235e9.css",
-    "static/js/main.68604bb4.js"
+    "static/css/main.64e896c4.css",
+    "static/js/main.15106f93.js"
   ]
 }
