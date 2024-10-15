@@ -3,7 +3,12 @@
 }
 
 .social_icon {
-    padding: 0 3px;
+    padding: 0px 3px;
+}
+
+.right_side_container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .language_switch {
