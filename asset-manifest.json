@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/elmejorveranodemivida/static/css/main.a95d2a6f.css",
-    "main.js": "/elmejorveranodemivida/static/js/main.6808dd5d.js",
+    "main.css": "/elmejorveranodemivida/static/css/main.64cb8eb4.css",
+    "main.js": "/elmejorveranodemivida/static/js/main.c99e5676.js",
+    "static/media/rafa_santiago.jpg": "/elmejorveranodemivida/static/media/rafa_santiago.94542f10bb302310a4a4.jpg",
+    "static/media/recreo_presentation.webp": "/elmejorveranodemivida/static/media/recreo_presentation.c5e9ec68522216972c9f.webp",
+    "static/media/martin.webp": "/elmejorveranodemivida/static/media/martin.9c5cb0dd8979a1303ece.webp",
     "static/media/first_presentation.webp": "/elmejorveranodemivida/static/media/first_presentation.da3b5ce221704c0f6cc7.webp",
+    "static/media/esparza.webp": "/elmejorveranodemivida/static/media/esparza.f17ae3238d56b422c36a.webp",
     "static/media/sun_logo.webp": "/elmejorveranodemivida/static/media/sun_logo.fd7b22dae59d454f5d5e.webp",
-    "static/media/park_acoustic.webp": "/elmejorveranodemivida/static/media/park_acoustic.72476f9d3e91826eea0d.webp",
     "static/media/cruz_presentation.webp": "/elmejorveranodemivida/static/media/cruz_presentation.d88e7ef27396a35d2625.webp",
     "index.html": "/elmejorveranodemivida/index.html",
-    "main.a95d2a6f.css.map": "/elmejorveranodemivida/static/css/main.a95d2a6f.css.map",
-    "main.6808dd5d.js.map": "/elmejorveranodemivida/static/js/main.6808dd5d.js.map"
+    "main.64cb8eb4.css.map": "/elmejorveranodemivida/static/css/main.64cb8eb4.css.map",
+    "main.c99e5676.js.map": "/elmejorveranodemivida/static/js/main.c99e5676.js.map"
   },
   "entrypoints": [
-    "static/css/main.a95d2a6f.css",
-    "static/js/main.6808dd5d.js"
+    "static/css/main.64cb8eb4.css",
+    "static/js/main.c99e5676.js"
   ]
 }
