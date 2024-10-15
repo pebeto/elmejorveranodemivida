@@ -6,7 +6,7 @@ import React from 'react';
 import Figure from 'react-bootstrap/Figure';
 import { withTranslation } from 'react-i18next';
 
-import park_acoustic_photo from '../../assets/images/photos/park_acoustic.webp';
+import recreo_presentation_photo from '../../assets/images/photos/recreo_presentation.webp';
 
 import './contact.css';
 
@@ -24,11 +24,11 @@ class Contact extends React.Component {
     render() {
         return (
             <Row>
-                <Col>
+                <Col xs={12} sm={12} md={12} lg={7}>
                     <Figure>
                         <Figure.Image
                             fluid
-                            src={park_acoustic_photo}
+                            src={recreo_presentation_photo}
                         ></Figure.Image>
                     </Figure>
                 </Col>

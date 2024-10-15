@@ -8,6 +8,9 @@ import React from 'react';
 import { withTranslation } from 'react-i18next';
 
 import logo from '../../assets/images/sun_logo.webp';
+import martin_photo from '../../assets/images/photos/martin.webp'
+import esparza_photo from '../../assets/images/photos/esparza.webp'
+import rafa_santiago_photo from '../../assets/images/photos/rafa_santiago.jpg'
 import cruz_presentation_photo from '../../assets/images/photos/cruz_presentation.webp';
 import first_presentation_photo from '../../assets/images/photos/first_presentation.webp';
 
@@ -20,7 +23,7 @@ class Presskit extends React.Component {
         return (
             <div>
                 <Row>
-                    <Col>
+                    <Col xs={12} sm={12} md={12} lg={6}>
                         <Figure>
                             <Figure.Image
                                 fluid
@@ -32,16 +35,32 @@ class Presskit extends React.Component {
                         <div className="presskit_text">
                             {this.props.t('presskit.text1')}
                         </div>
-                        <div className="video-container">
-                            <iframe
-                                width="560"
-                                height="315"
-                                src="https://www.youtube.com/embed/N50iT1cFQVw?controls=0"
-                                title="YouTube video player"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
-                            ></iframe>
-                        </div>
+                    </Col>
+                </Row>
+                <Row fluid>
+                    <Col xs={12} sm={12} md={4}>
+                        <Figure>
+                            <Figure.Image
+                                fluid
+                                src={rafa_santiago_photo}
+                            ></Figure.Image>
+                        </Figure>
+                    </Col>
+                    <Col xs={12} sm={12} md={4}>
+                        <Figure>
+                            <Figure.Image
+                                fluid
+                                src={martin_photo}
+                            ></Figure.Image>
+                        </Figure>
+                    </Col>
+                    <Col xs={12} sm={12} md={4}>
+                        <Figure>
+                            <Figure.Image
+                                fluid
+                                src={esparza_photo}
+                            ></Figure.Image>
+                        </Figure>
                     </Col>
                 </Row>
                 <Row>
@@ -83,15 +102,15 @@ class Presskit extends React.Component {
                             <Col>
                                 <div className="presskit_text.formation">
                                     <h5>
-                                        {this.props.t('presskit.guitarbass1')}{' '}
+                                        {this.props.t('presskit.guitar')}{' '}
                                         <Badge bg="success">
-                                            {this.props.t('presskit.guitarbassbadge')}
+                                            {this.props.t('presskit.guitarbadge')}
                                         </Badge>
                                     </h5>
                                     <h5>
-                                        {this.props.t('presskit.guitarbass2')}{' '}
+                                        {this.props.t('presskit.bass')}{' '}
                                         <Badge bg="danger">
-                                            {this.props.t('presskit.guitarbassbadge')}
+                                            {this.props.t('presskit.bassbadge')}
                                         </Badge>
                                     </h5>
                                     <h5>
@@ -142,26 +161,6 @@ class Presskit extends React.Component {
                                     rel="noreferrer noopener"
                                 >
                                     @pebeto99
-                                </a>
-                            </div>
-                            <div>
-                                <b>{this.props.t('presskit.media')}:</b>{' '}
-                                {this.props.t('presskit.media.author')}{' '}
-                                <a
-                                    className="presskit_social"
-                                    href="https://www.instagram.com/imnotpunk.uwu/"
-                                    target="_blank"
-                                    rel="noreferrer noopener"
-                                >
-                                    @imnotpunk.uwu
-                                </a>{' '}
-                                <a
-                                    className="presskit_social"
-                                    href="https://www.instagram.com/kar0shee/"
-                                    target="_blank"
-                                    rel="noreferrer noopener"
-                                >
-                                    @kar0shee
                                 </a>
                             </div>
                         </div>

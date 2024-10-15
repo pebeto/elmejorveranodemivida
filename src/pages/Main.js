@@ -14,17 +14,6 @@ class Main extends React.Component {
                 <Row>
                     <Col xs={12} sm={12} md={6}>
                         <iframe
-                            title="spotify"
-                            style={{ borderRadius: '12px' }}
-                            src="https://open.spotify.com/embed/album/5atwna2DVeRTYaSpfY3gi2?utm_source=generator"
-                            width="100%"
-                            height="100%"
-                            allowFullScreen=""
-                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        ></iframe>
-                    </Col>
-                    <Col xs={12} sm={12} md={6}>
-                        <iframe
                             title="bandcamp"
                             style={{ border: 0, width: '100%', height: '100%' }}
                             src="https://bandcamp.com/EmbeddedPlayer/album=1828008601/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
@@ -34,6 +23,17 @@ class Main extends React.Component {
                                 El mejor verano de mi vida by El mejor verano de mi vida
                             </a>
                         </iframe>
+                    </Col>
+                    <Col xs={12} sm={12} md={6}>
+                        <iframe
+                            title="spotify"
+                            style={{ borderRadius: '12px' }}
+                            src="https://open.spotify.com/embed/album/5atwna2DVeRTYaSpfY3gi2?utm_source=generator"
+                            width="100%"
+                            height="100%"
+                            allowFullScreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        ></iframe>
                     </Col>
                 </Row>
                 <Row>
