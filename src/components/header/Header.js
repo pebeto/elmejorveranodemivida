@@ -44,56 +44,64 @@ const Header = () => {
                         {t('navbar.contact')}
                     </Nav.Link>
                 </Nav>
-                <Nav>
-                    <Nav.Link className="link" onClick={() => changeLanguage('es')}>
+                <Navbar.Text>
+                    [
+                    <button className="language_switch" onClick={() => changeLanguage('es')}>
                         español
-                    </Nav.Link>
-                    <Nav.Link className="link" onClick={() => changeLanguage('en')}>
+                    </button>
+                    <button className="language_switch" onClick={() => changeLanguage('en')}>
                         english
-                    </Nav.Link>
-                    <Nav.Link
+                    </button>
+                    ]
+                    <a
+                        className="social_icon"
                         target="_blank"
                         rel="noreferrer noopener"
                         href="https://www.instagram.com/emvdmvband/"
                     >
                         <FontAwesomeIcon icon={faInstagram} size="lg" />
-                    </Nav.Link>
-                    <Nav.Link
+                    </a>
+                    <a
+                        className="social_icon"
                         href="https://twitter.com/emvdmv"
                         rel="noreferrer noopener"
                         target="_blank"
                     >
                         <FontAwesomeIcon icon={faTwitter} size="lg" />
-                    </Nav.Link>
-                    <Nav.Link
+                    </a>
+                    <a
+                        className="social_icon"
                         target="_blank"
                         rel="noreferrer noopener"
                         href="https://elmejorveranodemivida.bandcamp.com/"
                     >
                         <FontAwesomeIcon icon={faBandcamp} size="lg" />
-                    </Nav.Link>
-                    <Nav.Link
+                    </a>
+                    <a
+                        className="social_icon"
                         href="https://open.spotify.com/artist/0eeLx3Q4FwreAyuPZLxR3n?si=_5ANYiUKTpWqUBI63Neq_g"
                         rel="noreferrer noopener"
                         target="_blank"
                     >
                         <FontAwesomeIcon icon={faSpotify} size="lg" />
-                    </Nav.Link>
-                    <Nav.Link
+                    </a>
+                    <a
+                        className="social_icon"
                         href="https://www.youtube.com/channel/UCSyQLlL_7JyVbA_1mPyW5Sg"
                         rel="noreferrer noopener"
                         target="_blank"
                     >
                         <FontAwesomeIcon icon={faYoutube} size="lg" />
-                    </Nav.Link>
-                    <Nav.Link
+                    </a>
+                    <a
+                        className="social_icon"
                         href="https://github.com/pebeto/elmejorveranodemivida/"
                         rel="noreferrer noopener"
                         target="_blank"
                     >
                         <FontAwesomeIcon icon={faGithub} size="lg" />
-                    </Nav.Link>
-                </Nav>
+                    </a>
+                </Navbar.Text>
             </Navbar.Collapse>
         </Navbar>
     );

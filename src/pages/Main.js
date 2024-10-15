@@ -1,14 +1,9 @@
 import {
     Col,
     Row,
-    Figure,
 } from 'react-bootstrap';
 import React from 'react';
 import { withTranslation } from 'react-i18next';
-
-import logo from '../assets/images/sun_logo.webp';
-
-import './main.css';
 
 class Main extends React.Component {
     state = {};
@@ -17,21 +12,21 @@ class Main extends React.Component {
         return (
             <div>
                 <Row>
-                    <Col>
+                    <Col xs={12} sm={12} md={6}>
                         <iframe
                             title="spotify"
                             style={{ borderRadius: '12px' }}
                             src="https://open.spotify.com/embed/album/5atwna2DVeRTYaSpfY3gi2?utm_source=generator"
                             width="100%"
-                            height="250"
+                            height="100%"
                             allowFullScreen=""
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                         ></iframe>
                     </Col>
-                    <Col>
+                    <Col xs={12} sm={12} md={6}>
                         <iframe
                             title="bandcamp"
-                            style={{ border: 0, width: '100%', height: '120px' }}
+                            style={{ border: 0, width: '100%', height: '100%' }}
                             src="https://bandcamp.com/EmbeddedPlayer/album=1828008601/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
                             seamless
                         >

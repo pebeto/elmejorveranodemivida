@@ -24,13 +24,13 @@ class App extends React.Component {
         return (
             <HashRouter>
                 <Container>
-                    <Row className="header-row">
-                        <Col>
+                    <Row className="justify-content-md-center">
+                        <Col lg={10}>
                             <Header />
                         </Col>
                     </Row>
-                    <Row className="body-row">
-                        <Col>
+                    <Row className="justify-content-md-center">
+                        <Col lg={9}>
                             <Routes>
                                 <Route path="/" element={<Main />}></Route>
                                 <Route path="merch" element={<Merch />}></Route>
@@ -39,8 +39,8 @@ class App extends React.Component {
                             </Routes>
                         </Col>
                     </Row>
-                    <Row className="footer-row">
-                        <Col>
+                    <Row className="justify-content-md-center">
+                        <Col lg={10}>
                             <Footer />
                         </Col>
                     </Row>
