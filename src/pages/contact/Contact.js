@@ -6,11 +6,16 @@ import React from 'react';
 import Figure from 'react-bootstrap/Figure';
 import { withTranslation } from 'react-i18next';
 
-import recreo_presentation_photo from '../../assets/images/photos/recreo_presentation.webp';
-
 import './contact.css';
 
+import lotrMemePhoto from '../../assets/images/photos/lotr.webp';
+import normalMemePhoto from '../../assets/images/photos/normal.webp';
+
 class Contact extends React.Component {
+    state = {
+        memePhoto: normalMemePhoto,
+    };
+
     getContactCategories() {
         let contactCategories = '';
         let categories = ['press', 'booking', 'colaboration', 'other'];
@@ -21,14 +26,24 @@ class Contact extends React.Component {
         return contactCategories.slice(0, -2);
     }
 
+    swapMemePhoto() {
+        this.setState({
+            memePhoto:
+                this.state.memePhoto === normalMemePhoto
+                    ? lotrMemePhoto
+                    : normalMemePhoto,
+        });
+    }
+
     render() {
         return (
             <Row>
-                <Col xs={12} sm={12} md={12} lg={7}>
+                <Col xs={12} sm={12} md={12} lg={6}>
                     <Figure>
                         <Figure.Image
                             fluid
-                            src={recreo_presentation_photo}
+                            src={this.state.memePhoto}
+                            onClick={() => {this.swapMemePhoto()}}
                         ></Figure.Image>
                     </Figure>
                 </Col>
