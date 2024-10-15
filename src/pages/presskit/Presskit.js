@@ -113,13 +113,6 @@ class Presskit extends React.Component {
                 </Row>
                 <Row>
                     <Col>
-                        <div className="presskit_text">
-                            <h1>{this.props.t('presskit.lastdates')}</h1>
-                        </div>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
                         <Figure>
                             <Figure.Image fluid src={logo}></Figure.Image>
                         </Figure>

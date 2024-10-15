@@ -12,7 +12,9 @@
   padding-top: 10px;
 }
 
-@font-face {
-  font-family: 'LeOsler';
-  src: url(./assets/fonts/LeOsler_Rough-Light.ttf) format('truetype');
+.brand_name {
+  font-family: 'Courier Prime';
+  font-size: large;
+  font-weight: bold;
+  @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 }

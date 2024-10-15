@@ -18,6 +18,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import i18n from '../../services/i18n';
 
 import './header.css';
+import { hardcorize } from '../../utils';
 
 const changeLanguage = (language) => {
     i18n.changeLanguage(language);
@@ -28,7 +29,7 @@ const Header = () => {
     return (
         <Navbar variant="light" collapseOnSelect expand="lg">
             <Navbar.Brand className="brand_name" as={Link} to="/">
-                El mejor verano de mi vida
+                { hardcorize("elmejorveranodemivida") }
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse className="navbar_header" id="responsive-navbar-nav">
@@ -45,10 +46,10 @@ const Header = () => {
                 </Nav>
                 <Nav>
                     <Nav.Link className="link" onClick={() => changeLanguage('es')}>
-                        {t('spanish')}
+                        español
                     </Nav.Link>
                     <Nav.Link className="link" onClick={() => changeLanguage('en')}>
-                        {t('english')}
+                        english
                     </Nav.Link>
                     <Nav.Link
                         target="_blank"

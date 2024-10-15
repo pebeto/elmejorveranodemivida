@@ -1,13 +1,12 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
-
-import './footer.css';
+import { hardcorize } from '../../utils';
 
 const Footer = () => {
     return (
         <Nav fill>
             <Nav.Item className="brand_name">
-                El mejor verano de mi vida - {new Date().getFullYear()}
+                { hardcorize("elmejorveranodemivida") } - {new Date().getFullYear()}
             </Nav.Item>
         </Nav>
     );

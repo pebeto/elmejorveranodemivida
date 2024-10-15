@@ -27,6 +27,8 @@ class Main extends React.Component {
                             allowFullScreen=""
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                         ></iframe>
+                    </Col>
+                    <Col>
                         <iframe
                             title="bandcamp"
                             style={{ border: 0, width: '100%', height: '120px' }}
@@ -37,6 +39,10 @@ class Main extends React.Component {
                                 El mejor verano de mi vida by El mejor verano de mi vida
                             </a>
                         </iframe>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
                         <div className="video-container">
                             <iframe
                                 width="560"
@@ -48,10 +54,31 @@ class Main extends React.Component {
                             ></iframe>
                         </div>
                     </Col>
+                </Row>
+                <Row>
                     <Col>
-                        <Figure>
-                            <Figure.Image className="logo" src={logo}></Figure.Image>
-                        </Figure>
+                        <div className="video-container">
+                            <iframe
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/0A7rYzvOLQM?controls=0"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className="video-container">
+                            <iframe
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/NjRlKZEWtLc?controls=0"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe>
+                        </div>
                     </Col>
                 </Row>
             </div>
