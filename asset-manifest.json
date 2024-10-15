@@ -1,20 +1,17 @@
 {
-  "main.css": "/elmejorveranodemivida/static/css/main.67d90b91.chunk.css",
-  "main.js": "/elmejorveranodemivida/static/js/main.ac031811.chunk.js",
-  "main.js.map": "/elmejorveranodemivida/static/js/main.ac031811.chunk.js.map",
-  "static/css/1.84878c14.chunk.css": "/elmejorveranodemivida/static/css/1.84878c14.chunk.css",
-  "static/js/1.43637551.chunk.js": "/elmejorveranodemivida/static/js/1.43637551.chunk.js",
-  "static/js/1.43637551.chunk.js.map": "/elmejorveranodemivida/static/js/1.43637551.chunk.js.map",
-  "runtime~main.js": "/elmejorveranodemivida/static/js/runtime~main.eb5b71e6.js",
-  "runtime~main.js.map": "/elmejorveranodemivida/static/js/runtime~main.eb5b71e6.js.map",
-  "static/media/cruz_presentation.webp": "/elmejorveranodemivida/static/media/cruz_presentation.3eeed776.webp",
-  "static/media/first_presentation.webp": "/elmejorveranodemivida/static/media/first_presentation.f9210d99.webp",
-  "static/media/app.css": "/elmejorveranodemivida/static/media/LeOsler_Rough-Light.8802a3bc.ttf",
-  "static/media/sun_logo.webp": "/elmejorveranodemivida/static/media/sun_logo.edb47516.webp",
-  "static/media/park_acoustic.webp": "/elmejorveranodemivida/static/media/park_acoustic.52b9f3d5.webp",
-  "static/css/main.67d90b91.chunk.css.map": "/elmejorveranodemivida/static/css/main.67d90b91.chunk.css.map",
-  "static/css/1.84878c14.chunk.css.map": "/elmejorveranodemivida/static/css/1.84878c14.chunk.css.map",
-  "index.html": "/elmejorveranodemivida/index.html",
-  "precache-manifest.ca526c366653a7bd11a662ea0db5ebeb.js": "/elmejorveranodemivida/precache-manifest.ca526c366653a7bd11a662ea0db5ebeb.js",
-  "service-worker.js": "/elmejorveranodemivida/service-worker.js"
+  "files": {
+    "main.css": "/elmejorveranodemivida/static/css/main.a95d2a6f.css",
+    "main.js": "/elmejorveranodemivida/static/js/main.6808dd5d.js",
+    "static/media/first_presentation.webp": "/elmejorveranodemivida/static/media/first_presentation.da3b5ce221704c0f6cc7.webp",
+    "static/media/sun_logo.webp": "/elmejorveranodemivida/static/media/sun_logo.fd7b22dae59d454f5d5e.webp",
+    "static/media/park_acoustic.webp": "/elmejorveranodemivida/static/media/park_acoustic.72476f9d3e91826eea0d.webp",
+    "static/media/cruz_presentation.webp": "/elmejorveranodemivida/static/media/cruz_presentation.d88e7ef27396a35d2625.webp",
+    "index.html": "/elmejorveranodemivida/index.html",
+    "main.a95d2a6f.css.map": "/elmejorveranodemivida/static/css/main.a95d2a6f.css.map",
+    "main.6808dd5d.js.map": "/elmejorveranodemivida/static/js/main.6808dd5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a95d2a6f.css",
+    "static/js/main.6808dd5d.js"
+  ]
 }
