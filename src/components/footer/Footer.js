@@ -9,8 +9,11 @@ import './footer.css';
 const Footer = () => {
     return (
         <Nav fill>
-            <Nav.Item className="brand_name">
-                { hardcorize("elmejorveranodemivida") } - {new Date().getFullYear()}
+            <Nav.Item>
+                <span className="brand_name">
+                    {hardcorize("elmejorveranodemivida")}
+                </span>
+                - {new Date().getFullYear()}
                 <a
                     className="gh_icon"
                     href="https://github.com/pebeto/elmejorveranodemivida/"

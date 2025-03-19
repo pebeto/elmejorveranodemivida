@@ -1,8 +1,17 @@
 .presskit_text {
     text-align: justify;
+    padding-bottom: 20px;
 }
 
-.releases_title {
+.presskit_titles {
     padding: 20px;
     text-align: center;
+}
+
+.presskit_links {
+    text-decoration: none;
+}
+
+.presskit_credits_text {
+    float: right;
 }

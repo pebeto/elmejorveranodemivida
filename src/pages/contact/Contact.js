@@ -8,8 +8,8 @@ import { withTranslation } from 'react-i18next';
 
 import './contact.css';
 
-import lotrMemePhoto from '../../assets/images/photos/lotr.webp';
-import normalMemePhoto from '../../assets/images/photos/normal.webp';
+import lotrMemePhoto from '../../assets/images/lotr.webp';
+import normalMemePhoto from '../../assets/images/normal.webp';
 
 class Contact extends React.Component {
     state = {
@@ -43,7 +43,7 @@ class Contact extends React.Component {
                         <Figure.Image
                             fluid
                             src={this.state.memePhoto}
-                            onClick={() => {this.swapMemePhoto()}}
+                            onClick={() => { this.swapMemePhoto() }}
                         ></Figure.Image>
                     </Figure>
                 </Col>

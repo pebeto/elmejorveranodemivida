@@ -34,7 +34,7 @@ const Header = () => {
     return (
         <Navbar variant="light" collapseOnSelect expand="lg">
             <Navbar.Brand className="brand_name" as={Link} to="/">
-                { hardcorize("elmejorveranodemivida") }
+                {hardcorize("elmejorveranodemivida")}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse className="navbar_header" id="responsive-navbar-nav">

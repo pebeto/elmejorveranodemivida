@@ -1,20 +1,21 @@
 import {
     Col,
     Row,
-    Card,
     Figure,
 } from 'react-bootstrap';
 import React from 'react';
 import { withTranslation } from 'react-i18next';
 
-import st_photo from '../../assets/images/photos/st.webp';
 import martin_photo from '../../assets/images/photos/martin.webp'
-import esparza_photo from '../../assets/images/photos/esparza.webp'
-import rafa_santiago_photo from '../../assets/images/photos/rafa_santiago.webp'
-import first_presentation_photo from '../../assets/images/photos/first_presentation.webp';
-import computer_science_photo from '../../assets/images/photos/ciencias_de_la_computacion.webp';
+import rafa_photo from '../../assets/images/photos/rafa.webp'
+import santiago_photo from '../../assets/images/photos/santiago.webp'
+import at_birthday_screaming_photo from '../../assets/images/photos/at_birthday_screaming.webp';
 
 import './presskit.css';
+import { shuffleArray } from '../../utils';
+
+const galleryContext = require.context('../../assets/images/photos/gallery', false, /\.webp$/);
+const galleryImages = shuffleArray(galleryContext.keys().map(galleryContext));
 
 class Presskit extends React.Component {
     state = {};
@@ -23,32 +24,32 @@ class Presskit extends React.Component {
         return (
             <div>
                 <Row>
-                    <Col xs={12} sm={12} md={12} lg={6}>
+                    <Col>
                         <Figure>
                             <Figure.Image
                                 fluid
-                                src={first_presentation_photo}
+                                src={at_birthday_screaming_photo}
                             ></Figure.Image>
                             <Figure.Caption>
-                                {this.props.t('presskit.first_presentation_caption')}
+                                {this.props.t('presskit.at_birthday_screaming_caption')}
                             </Figure.Caption>
                         </Figure>
                     </Col>
-                    <Col>
-                        <div className="presskit_text">
-                            {this.props.t('presskit.text1')}
-                        </div>
+                </Row>
+                <Row>
+                    <Col className="presskit_text">
+                        {this.props.t('presskit.text1')}
                     </Col>
                 </Row>
-                <Row fluid>
+                <Row>
                     <Col xs={12} sm={12} md={4}>
                         <Figure>
                             <Figure.Image
                                 fluid
-                                src={rafa_santiago_photo}
+                                src={rafa_photo}
                             ></Figure.Image>
                             <Figure.Caption>
-                                {this.props.t('presskit.rafa_santiago_caption')}
+                                {this.props.t('presskit.rafa_caption')}
                             </Figure.Caption>
                         </Figure>
                     </Col>
@@ -67,42 +68,102 @@ class Presskit extends React.Component {
                         <Figure>
                             <Figure.Image
                                 fluid
-                                src={esparza_photo}
+                                src={santiago_photo}
                             ></Figure.Image>
                             <Figure.Caption>
-                                {this.props.t('presskit.esparza_caption')}
+                                {this.props.t('presskit.santiago_caption')}
                             </Figure.Caption>
                         </Figure>
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
-                        <div className="releases_title">
-                            <h2>{this.props.t('presskit.releases')}</h2>
-                        </div>
-                    </Col>
-                </Row>
-                <Row xs={2}>
-                    <Col>
-                        <Card>
-                            <Card.Img variant="top" src={st_photo} />
-                            <Card.Title>{this.props.t('presskit.st_title')}</Card.Title>
-                            <Card.Text>{this.props.t('presskit.st_text')}</Card.Text>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card>
-                            <Card.Img variant="top" src={computer_science_photo} />
-                            <Card.Title>{this.props.t('presskit.computer_science_title')}</Card.Title>
-                            <Card.Text>{this.props.t('presskit.computer_science_text')}</Card.Text>
-                        </Card>
+                    <Col className="presskit_text">
+                        {this.props.t('presskit.text2')}
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        <div className="releases_title">
-                            <h2>{this.props.t('presskit.gallery_title')}</h2>
+                        <div className="video-container">
+                            <iframe
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/JySRK3UXp5c?controls=0"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe>
                         </div>
+                    </Col>
+                    <Col>
+                        <div className="video-container">
+                            <iframe
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/CaTFsaPv16Q?controls=0"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <div className="video-container">
+                            <iframe
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/0A7rYzvOLQM?controls=0"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className="video-container">
+                            <iframe
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/NjRlKZEWtLc?controls=0"
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe>
+                        </div>
+                    </Col>
+                </Row>
+                {
+                    galleryImages.reduce((rows, key, index) => (index % 3 === 0 ? rows.push([key]) : rows[rows.length - 1].push(key)) && rows, []).map((row, index) => (
+                        <Row key={index}>
+                            {
+                                row.map((image, index) => (
+                                    <Col key={index} xs={12} sm={4}>
+                                        <Figure>
+                                            <Figure.Image
+                                                src={image}
+                                            ></Figure.Image>
+                                        </Figure>
+                                    </Col>
+                                ))
+                            }
+                        </Row>
+                    ))
+                }
+                <Row className="presskit_credits_text">
+                    <Col>
+                        {this.props.t('presskit.credits')}
+                        <ul>
+                            <li>
+                                Jhonatan Zapata (<a className="presskit_links" href="https://www.instagram.com/jack_zeat/" target="_blank" rel="noreferrer noopener">@jack_zeat</a>)
+                            </li>
+                            <li>
+                                Charli Zapata (<a className="presskit_links" href="https://www.instagram.com/cafecito_fugazzz/" target="_blank" rel="noreferrer noopener">@cafecito_fugazzz</a>)
+                            </li>
+                            <li>
+                                Maxl Inthebed (<a className="presskit_links" href="https://www.instagram.com/bedthofukmaxi/" target="_blank" rel="noreferrer noopener">@bedthofukmaxi</a>)
+                            </li>
+                        </ul>
                     </Col>
                 </Row>
             </div>

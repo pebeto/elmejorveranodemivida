@@ -14,8 +14,18 @@ class Main extends React.Component {
                 <Row>
                     <Col xs={12} sm={12} md={6}>
                         <iframe
+                            title="apple music"
+                            allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+                            height="110%"
+                            style={{ width: '100%', maxWidth: '660px', overflow: 'hidden', borderRadius: '10px', paddingBottom: '25px' }}
+                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+                            src="https://embed.music.apple.com/us/album/el-mejor-verano-de-mi-vida-ep/1622251663"
+                        />
+                    </Col>
+                    <Col xs={12} sm={12} md={6}>
+                        <iframe
                             title="bandcamp"
-                            style={{ border: 0, width: '100%', height: '100%' }}
+                            style={{ border: 0, width: '100%', height: '120px' }}
                             src="https://bandcamp.com/EmbeddedPlayer/album=1828008601/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
                             seamless
                         >
@@ -23,17 +33,19 @@ class Main extends React.Component {
                                 El mejor verano de mi vida by El mejor verano de mi vida
                             </a>
                         </iframe>
-                    </Col>
-                    <Col xs={12} sm={12} md={6}>
+                        <iframe
+                            src="https://embed.tidal.com/albums/227354052"
+                            style={{ borderRadius: '12px', width: '100%', height: 'auto' }}
+                            allow="encrypted-media"
+                            sandbox="allow-same-origin allow-scripts allow-forms allow-popups" title="TIDAL Embed Player"
+                        />
                         <iframe
                             title="spotify"
-                            style={{ borderRadius: '12px' }}
+                            style={{ borderRadius: '12px', width: '100%', height: '50%' }}
                             src="https://open.spotify.com/embed/album/5atwna2DVeRTYaSpfY3gi2?utm_source=generator"
-                            width="100%"
-                            height="100%"
                             allowFullScreen=""
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        ></iframe>
+                        />
                     </Col>
                 </Row>
                 <Row>
@@ -56,7 +68,7 @@ class Main extends React.Component {
                             <iframe
                                 width="560"
                                 height="315"
-                                src="https://www.youtube.com/embed/0A7rYzvOLQM?controls=0"
+                                src="https://www.youtube.com/embed/JySRK3UXp5c?controls=0"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
@@ -68,7 +80,7 @@ class Main extends React.Component {
                             <iframe
                                 width="560"
                                 height="315"
-                                src="https://www.youtube.com/embed/NjRlKZEWtLc?controls=0"
+                                src="https://www.youtube.com/embed/CaTFsaPv16Q?controls=0"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
