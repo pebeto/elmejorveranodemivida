@@ -161,7 +161,7 @@ class Presskit extends React.Component {
                                 Charli Zapata (<a className="presskit_links" href="https://www.instagram.com/cafecito_fugazzz/" target="_blank" rel="noreferrer noopener">@cafecito_fugazzz</a>)
                             </li>
                             <li>
-                                Maxl Inthebed (<a className="presskit_links" href="https://www.instagram.com/bedthofukmaxi/" target="_blank" rel="noreferrer noopener">@bedthofukmaxi</a>)
+                                Karl Zelada Reynoso (<a className="presskit_links" href="https://www.instagram.com/bedthofukmaxi/" target="_blank" rel="noreferrer noopener">@bedthofukmaxi</a>)
                             </li>
                         </ul>
                     </Col>
