@@ -1,0 +1,14 @@
+[
+  {
+    "id": "product-1",
+    "name": {
+      "en": "Here will be the name of the product in english",
+      "es": "Aquí irá el nombre del producto en español"
+    },
+    "summary": {
+      "en": "Here will be the summary of the product in english",
+      "es": "Here will be the summary of the product in spanish"
+    },
+    "price": 0.0
+  }
+]

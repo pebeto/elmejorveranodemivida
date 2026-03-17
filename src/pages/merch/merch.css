@@ -1,0 +1,52 @@
+.merch-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.merch-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.merch-image-placeholder {
+  height: 200px;
+  background-color: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+}
+
+.image-text {
+  color: #6c757d;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+/* Striking color for pricing */
+.price {
+  font-weight: bold;
+  color: #000000; /* Black color for pricing */
+  font-size: 18px;
+}
+
+.currency-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
