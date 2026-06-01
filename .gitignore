@@ -2,7 +2,9 @@
 
 build
 node_modules
-src/assets/*
+
+# Local full-res asset backup (created during image optimization; not committed)
+/assets-originals/
 
 # Playwright MCP scratch output (screenshots, snapshots, console logs)
 .playwright-mcp/

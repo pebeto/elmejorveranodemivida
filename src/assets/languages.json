@@ -1,0 +1,79 @@
+{
+    "en": {
+        "translation": {
+            "coming_soon": "Closer than ever... See you in the pit!",
+
+            "navbar.merch": "merch",
+            "navbar.contact": "contact",
+            "navbar.press_kit": "presskit",
+
+            "presskit.text1":"El mejor verano de mi vida is a band from Trujillo, Peru, formed in 2019 with projection to “play once and die” (which did not happen). Due to their intense and totally emotional sound, which evades the standard of the genre taking a positive view on life; the band maintains a fixed presence in the local and international scene. Blogs from different parts of the world mention the unique work related to the pure form of their sound, which can be appreciated accompanied by an energetic style. Today, their impact is reflected in their multicultural audience: Mexico, United States, Chile, Colombia, Argentina, Spain, Australia, United Kingdom, and above all in Peru.",
+            "presskit.text2": "Each performance is an experience that should be lived at least once in a lifetime; in which each member focuses on creating an unforgettable memory. Like forces of nature in a sway of emotions, the band joins the heartbeat of the audience to create an unparalleled atmosphere. This feeling cannot be described in words alone: we invite you to be part of this madness.",
+            "presskit.releases":"Releases",
+            "presskit.credits":"Credits",
+            "presskit.logodesign":"Logo design",
+            "presskit.logodesign.author":"Jaqueline Medina",
+            "presskit.webdesign":"Web design",
+            "presskit.webdesign.author":"Jose Esparza",
+            "presskit.mentions":"Mentions",
+            "presskit.rafa_caption": "Rafael Fernandez (bass)",
+            "presskit.santiago_caption": "Santiago Perez (guitar)",
+            "presskit.martin_caption": "Martin Terrones (drums)",
+            "presskit.esparza_caption": "Jose Esparza (voice)",
+            "presskit.st_title": "El mejor verano de mi vida (S/T)",
+            "presskit.st_text": "EP - 05/27/2022",
+            "presskit.computer_science_title": "Ciencias de la Computación",
+            "presskit.computer_science_text": "Album - TBA",
+            "presskit.media_title": "Media",
+            "presskit.at_birthday_screaming_caption": "Jose Esparza (voice) and the public at \"El cumple de @\" - March 9th, 2025",
+            "presskit.credits": "Photographs taken by:",
+
+
+            "contact.email": "Email",
+            "contact.email.category.other": "other",
+            "contact.email.category.press": "press",
+            "contact.email.category.booking": "booking",
+            "contact.email.category.colaboration": "colaboration",
+            "contact.email.info2": "We will try to reply your message immediately!",
+            "contact.email.info1": "Send us your email with the next subject categories: "
+        }
+    },
+    "es": {
+        "translation": {
+            "coming_soon": "Más cerca que nunca... ¡Nos vemos en el pit!",
+
+            "navbar.merch": "merch",
+            "navbar.contact": "contacto",
+            "navbar.press_kit": "nota de prensa",
+
+            "presskit.text1": "El mejor verano de mi vida es una banda proveniente de Trujillo, Perú, formada en 2019 con projección a “tocar una vez y morir” (cosa que no sucedió). Debido a su sonido intenso y totalmente emocional, el cual evade el estandar del género tomando una visión positiva sobre la vida; la banda mantiene una fija presencia en la escena local e internacional. Blogs provenientes de diferentes partes del mundo mencionan el trabajo único relacionado a la forma pura de su sonido, el cual puede ser apreciado acompañado de un enérgico estilo. A día de hoy, su impacto se ve reflejado en su multicultural audiencia: México, Estados Unidos, Chile, Colombia, Argentina, España, Australia, Reino Unido, y sobre todo en Perú.",
+            "presskit.text2": "Cada presentación es una experiencia que se debe vivir por lo menos una vez en la vida; en la que cada integrante se enfoca en la creación de un recuerdo inolvidable. Como fuerzas de la naturaleza en un vaivén de emociones, la banda se une al latir del público para crear una atmósfera inigualable. Este sentir no puede describirse solamente con palabras: te invitamos a ser parte de esta locura.",
+            "presskit.releases":"Lanzamientos",
+            "presskit.credits":"Créditos",
+            "presskit.logodesign":"Diseño de logo",
+            "presskit.logodesign.author":"Jaqueline Medina",
+            "presskit.webdesign":"Diseño web",
+            "presskit.webdesign.author":"Jose Esparza",
+            "presskit.mentions":"Menciones",
+            "presskit.rafa_caption": "Rafael Fernandez (bajo)",
+            "presskit.santiago_caption": "Santiago Perez (guitarra)",
+            "presskit.martin_caption": "Martin Terrones (batería)",
+            "presskit.esparza_caption": "Jose Esparza (voz)",
+            "presskit.st_title": "El mejor verano de mi vida (S/T)",
+            "presskit.st_text": "EP - 27/05/2022",
+            "presskit.computer_science_title": "Ciencias de la Computación",
+            "presskit.computer_science_text": "Album - TBA",
+            "presskit.media_title": "Media",
+            "presskit.at_birthday_screaming_caption": "Jose Esparza (voz) y el público en \"El cumple de @\" - 9 de Marzo de 2025",
+            "presskit.credits": "Fotografias capturadas por:",
+
+            "contact.email": "Correo electrónico",
+            "contact.email.category.other": "otro",
+            "contact.email.category.press": "prensa",
+            "contact.email.category.booking": "contrato",
+            "contact.email.category.colaboration": "colaboración",
+            "contact.email.info2": "¡Trataremos de responder tu mensaje inmediatamente!",
+            "contact.email.info1": "Envíanos tu correo con las siguientes categorías de temas: "
+        }
+    }
+}
