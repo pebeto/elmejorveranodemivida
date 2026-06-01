@@ -1,14 +1,84 @@
-.navbar_header {
+.navbar-header-bg {
+    background-color: #fff;
+    padding: 0.5rem 0;
+}
+
+.navbar-header-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.brand_name {
+    font-family: 'Courier Prime';
+    font-size: large;
+    font-weight: bold;
+}
+
+.navbar-toggle {
+    display: none;
+    margin-left: auto;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+}
+
+.navbar-toggle-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.navbar-center {
+    display: flex;
+    flex: 1 1 auto;
     justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link {
+    padding: 0.5rem 1rem;
+    color: rgba(0, 0, 0, 0.55);
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .social_icon {
-    padding: 0px 3px;
+    padding: 0 3px;
+    color: inherit;
+    text-decoration: none;
 }
 
-.right_side_container {
+.right-side {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.language-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
 }
 
 .language_switch {
@@ -17,5 +87,36 @@
     border: none;
     font-family: 'Roboto';
     font-size: large;
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    cursor: pointer;
+    padding: 0;
+}
+
+/* Collapse the navbar below Bootstrap's `lg` breakpoint (expand="lg"). */
+@media (max-width: 991.98px) {
+    .navbar-toggle {
+        display: inline-flex;
+    }
+
+    .navbar-center {
+        flex-basis: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+        margin-top: 0.5rem;
+        display: none;
+    }
+
+    .navbar-center.is-open {
+        display: flex;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .right-side {
+        flex-wrap: wrap;
+        align-items: center;
+    }
 }

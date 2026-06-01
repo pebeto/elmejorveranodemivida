@@ -1,9 +1,4 @@
-import {
-    Col,
-    Row,
-} from 'react-bootstrap';
 import React from 'react';
-import Figure from 'react-bootstrap/Figure';
 import { withTranslation } from 'react-i18next';
 
 import './contact.css';
@@ -37,17 +32,18 @@ class Contact extends React.Component {
 
     render() {
         return (
-            <Row>
-                <Col xs={12} sm={12} md={12} lg={6}>
-                    <Figure>
-                        <Figure.Image
-                            fluid
+            <div className="flex flex-wrap -mx-2">
+                <div className="px-2 w-full lg:w-1/2">
+                    <figure>
+                        <img
+                            className="w-full"
                             src={this.state.memePhoto}
+                            alt="Contact meme"
                             onClick={() => { this.swapMemePhoto() }}
-                        ></Figure.Image>
-                    </Figure>
-                </Col>
-                <Col>
+                        />
+                    </figure>
+                </div>
+                <div className="px-2 w-full lg:w-1/2">
                     <div>
                         <div className="contact_text">
                             {this.props.t('contact.email.info1')}
@@ -68,8 +64,8 @@ class Contact extends React.Component {
                             {this.props.t('contact.email.info2')}
                         </div>
                     </div>
-                </Col>
-            </Row>
+                </div>
+            </div>
         );
     }
 }

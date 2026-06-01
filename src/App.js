@@ -1,8 +1,3 @@
-import {
-    Col,
-    Row,
-    Container,
-} from 'react-bootstrap';
 import React from 'react';
 import {
     Route,
@@ -19,35 +14,25 @@ import Presskit from './pages/presskit/Presskit';
 
 import './app.css';
 
-class App extends React.Component {
-    render() {
-        return (
-            <HashRouter>
-                <Container>
-                    <Row className="justify-content-md-center header">
-                        <Col lg={10}>
-                            <Header />
-                        </Col>
-                    </Row>
-                    <Row className="justify-content-md-center">
-                        <Col lg={10}>
-                            <Routes>
-                                <Route path="/" element={<Main />}></Route>
-                                <Route path="merch" element={<Merch />}></Route>
-                                <Route path="presskit" element={<Presskit />}></Route>
-                                <Route path="contact" element={<Contact />}></Route>
-                            </Routes>
-                        </Col>
-                    </Row>
-                    <Row className="justify-content-md-center footer">
-                        <Col lg={10}>
-                            <Footer />
-                        </Col>
-                    </Row>
-                </Container>
-            </HashRouter>
-        );
-    }
-}
+const App = () => {
+    return (
+        <HashRouter>
+            <div className="container mx-auto px-3 max-w-6xl">
+                <div className="header">
+                    <Header />
+                </div>
+                <Routes>
+                    <Route path="/" element={<Main />} />
+                    <Route path="merch" element={<Merch />} />
+                    <Route path="presskit" element={<Presskit />} />
+                    <Route path="contact" element={<Contact />} />
+                </Routes>
+                <div className="footer">
+                    <Footer />
+                </div>
+            </div>
+        </HashRouter>
+    );
+};
 
 export default App;

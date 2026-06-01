@@ -3,3 +3,6 @@
 build
 node_modules
 src/assets/*
+
+# Playwright MCP scratch output (screenshots, snapshots, console logs)
+.playwright-mcp/

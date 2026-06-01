@@ -1,4 +1,3 @@
-import { Col, Row, Figure } from "react-bootstrap";
 import React from "react";
 import { withTranslation } from "react-i18next";
 
@@ -23,53 +22,58 @@ class Presskit extends React.Component {
   render() {
     return (
       <div>
-        <Row>
-          <Col>
-            <Figure>
-              <Figure.Image
-                fluid
+        <div className="flex flex-wrap -mx-2">
+          <div className="px-2 w-full">
+            <figure>
+              <img
+                className="w-full"
                 src={at_birthday_screaming_photo}
-              ></Figure.Image>
-              <Figure.Caption>
+                alt="at birthday screaming"
+              />
+              <figcaption>
                 {this.props.t("presskit.at_birthday_screaming_caption")}
-              </Figure.Caption>
-            </Figure>
-          </Col>
-        </Row>
-        <Row>
-          <Col className="presskit_text">{this.props.t("presskit.text1")}</Col>
-        </Row>
-        <Row>
-          <Col xs={12} sm={12} md={4}>
-            <Figure>
-              <Figure.Image fluid src={rafa_photo}></Figure.Image>
-              <Figure.Caption>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div className="flex flex-wrap -mx-2">
+          <div className="px-2 w-full">
+            <div className="presskit_text">{this.props.t("presskit.text1")}</div>
+          </div>
+        </div>
+        <div className="flex flex-wrap -mx-2">
+          <div className="px-2 w-full sm:w-1/2 md:w-1/3">
+            <figure>
+              <img className="w-full" src={rafa_photo} alt="Rafa" />
+              <figcaption>
                 {this.props.t("presskit.rafa_caption")}
-              </Figure.Caption>
-            </Figure>
-          </Col>
-          <Col xs={12} sm={12} md={4}>
-            <Figure>
-              <Figure.Image fluid src={martin_photo}></Figure.Image>
-              <Figure.Caption>
+              </figcaption>
+            </figure>
+          </div>
+          <div className="px-2 w-full sm:w-1/2 md:w-1/3">
+            <figure>
+              <img className="w-full" src={martin_photo} alt="Martin" />
+              <figcaption>
                 {this.props.t("presskit.martin_caption")}
-              </Figure.Caption>
-            </Figure>
-          </Col>
-          <Col xs={12} sm={12} md={4}>
-            <Figure>
-              <Figure.Image fluid src={santiago_photo}></Figure.Image>
-              <Figure.Caption>
+              </figcaption>
+            </figure>
+          </div>
+          <div className="px-2 w-full sm:w-1/2 md:w-1/3">
+            <figure>
+              <img className="w-full" src={santiago_photo} alt="Santiago" />
+              <figcaption>
                 {this.props.t("presskit.santiago_caption")}
-              </Figure.Caption>
-            </Figure>
-          </Col>
-        </Row>
-        <Row>
-          <Col className="presskit_text">{this.props.t("presskit.text2")}</Col>
-        </Row>
-        <Row>
-          <Col>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div className="flex flex-wrap -mx-2">
+          <div className="px-2 w-full">
+            <div className="presskit_text">{this.props.t("presskit.text2")}</div>
+          </div>
+        </div>
+        <div className="flex flex-wrap -mx-2">
+          <div className="px-2 w-full md:w-1/2">
             <div className="video-container">
               <iframe
                 width="560"
@@ -80,8 +84,8 @@ class Presskit extends React.Component {
                 allowFullScreen
               ></iframe>
             </div>
-          </Col>
-          <Col>
+          </div>
+          <div className="px-2 w-full md:w-1/2">
             <div className="video-container">
               <iframe
                 width="560"
@@ -92,10 +96,10 @@ class Presskit extends React.Component {
                 allowFullScreen
               ></iframe>
             </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
+          </div>
+        </div>
+        <div className="flex flex-wrap -mx-2">
+          <div className="px-2 w-full md:w-1/2">
             <div className="video-container">
               <iframe
                 width="560"
@@ -106,8 +110,8 @@ class Presskit extends React.Component {
                 allowFullScreen
               ></iframe>
             </div>
-          </Col>
-          <Col>
+          </div>
+          <div className="px-2 w-full md:w-1/2">
             <div className="video-container">
               <iframe
                 width="560"
@@ -118,8 +122,8 @@ class Presskit extends React.Component {
                 allowFullScreen
               ></iframe>
             </div>
-          </Col>
-        </Row>
+          </div>
+        </div>
         {galleryImages
           .reduce(
             (rows, key, index) =>
@@ -129,15 +133,15 @@ class Presskit extends React.Component {
             []
           )
           .map((row, index) => (
-            <Row key={index}>
+            <div key={index} className="flex flex-wrap -mx-2">
               {row.map((image, index) => (
-                <Col key={index} xs={12} sm={4}>
-                  <Figure>
-                    <Figure.Image src={image}></Figure.Image>
-                  </Figure>
-                </Col>
+                <div key={index} className="px-2 w-full sm:w-1/2 md:w-1/3">
+                  <figure>
+                    <img className="w-full" src={image} alt="" />
+                  </figure>
+                </div>
               ))}
-            </Row>
+            </div>
           ))}
       </div>
     );

@@ -1,6 +1,5 @@
 import React from "react";
 import { withTranslation } from "react-i18next";
-import { Row, Col, Card } from "react-bootstrap";
 
 import "./merch.css";
 import products from "../../data/products.json";
@@ -17,29 +16,28 @@ class Merch extends React.Component {
           <p>{t("merch_shipping_note")}</p>
         </div>
 
-        <Row>
+        <div className="flex flex-wrap -mx-2">
           {products.map((product) => {
-            // Get current language from i18n context
             const currentLanguage = this.props.i18n.language || "en";
 
             return (
-              <Col key={product.id} xs={12} sm={6} md={3} className="mb-4">
-                <Card className="rounded">
-                  <div className="merch-image-placeholder">
+              <div key={product.id} className="px-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 mb-4">
+                <div className="bg-white rounded-[15px] overflow-hidden shadow-[0_4px_8px_rgba(0,0,0,0.1)]">
+                  <div className="merch-image-placeholder overflow-hidden">
                     <div className="image-text">Image</div>
                   </div>
-                  <Card.Body>
-                    <Card.Title>{product.name[currentLanguage]}</Card.Title>
-                    <Card.Text>{product.summary[currentLanguage]}</Card.Text>
-                    <Card.Text className="price">
+                  <div className="p-3">
+                    <h3 className="text-xl font-medium mb-2">{product.name[currentLanguage]}</h3>
+                    <p className="mb-2">{product.summary[currentLanguage]}</p>
+                    <p className="price font-bold text-black text-lg">
                       ${product.price.toFixed(2)}
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
+                    </p>
+                  </div>
+                </div>
+              </div>
             );
           })}
-        </Row>
+        </div>
       </div>
     );
   }

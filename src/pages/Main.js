@@ -1,7 +1,3 @@
-import {
-    Col,
-    Row,
-} from 'react-bootstrap';
 import React from 'react';
 import { withTranslation } from 'react-i18next';
 
@@ -11,8 +7,8 @@ class Main extends React.Component {
     render() {
         return (
             <div>
-                <Row>
-                    <Col xs={12} sm={12} md={6}>
+                <div className="flex flex-wrap -mx-2">
+                    <div className="px-2 w-full md:w-1/2">
                         <iframe
                             title="apple music"
                             allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
@@ -21,8 +17,8 @@ class Main extends React.Component {
                             sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
                             src="https://embed.music.apple.com/us/album/el-mejor-verano-de-mi-vida-ep/1622251663"
                         />
-                    </Col>
-                    <Col xs={12} sm={12} md={6}>
+                    </div>
+                    <div className="px-2 w-full md:w-1/2">
                         <iframe
                             title="bandcamp"
                             style={{ border: 0, width: '100%', height: '120px' }}
@@ -46,10 +42,10 @@ class Main extends React.Component {
                             allowFullScreen=""
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                         />
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
+                    </div>
+                </div>
+                <div className="flex flex-wrap -mx-2">
+                    <div className="px-2 w-full">
                         <div className="video-container">
                             <iframe
                                 width="560"
@@ -60,10 +56,10 @@ class Main extends React.Component {
                                 allowFullScreen
                             ></iframe>
                         </div>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
+                    </div>
+                </div>
+                <div className="flex flex-wrap -mx-2">
+                    <div className="px-2 w-full md:w-1/2">
                         <div className="video-container">
                             <iframe
                                 width="560"
@@ -74,8 +70,8 @@ class Main extends React.Component {
                                 allowFullScreen
                             ></iframe>
                         </div>
-                    </Col>
-                    <Col>
+                    </div>
+                    <div className="px-2 w-full md:w-1/2">
                         <div className="video-container">
                             <iframe
                                 width="560"
@@ -86,8 +82,8 @@ class Main extends React.Component {
                                 allowFullScreen
                             ></iframe>
                         </div>
-                    </Col>
-                </Row>
+                    </div>
+                </div>
             </div>
         );
     }
